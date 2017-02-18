@@ -1,5 +1,5 @@
-var fi fe qi qe thetai thetae vi ve g ho hoe ny noe noi usy usi usoi use Sy Soe Soi D omega c i pi tau y wy woi woe R Ygrowth Cgrowth;
-varexo phi;
+var fi fe qi qe thetai thetae vi ve g ho hoe ny noe noi usy usi usoi use Sy Soe Soi D omega c i pi tau y wy woi woe R Ygrowth Cgrowth phi;
+varexo phiss;
 
 parameters mi me alpha mu d delta eta gamma sigma kappai kappae beta alphapi epsilon chi pibar by boi boe rho A se si;
 
@@ -24,7 +24,7 @@ pibar = 100;
 by = 0.6;
 boi = 0.96;
 boe = 0.96;
-rho = 0.9;
+rho = 0.92;
 A = 1;
 
 model;
@@ -135,7 +135,7 @@ Ygrowth = (1+g)*y/y(-1)-1;
 Cgrowth = (1+g)*c/c(-1)-1;
 
 //(35)-(37)
-//phi = phi(-1);
+phi = (1-rho)*phiss+rho*phi(-1);
 //se = (1-rho)*sess+rho*se(-1) + e_s;
 //si = (1-rho)*siss+rho*si(-1) + e_s;
 
@@ -176,13 +176,26 @@ thetae = 1.00000000;
      R = 0.01010101;
 Ygrowth = 0;
 Cgrowth = 0;
-    phi = 0.02;
+  phiss = 0.02;
+    phi = phiss;
 end;
 
 endval;
-    phi = 0.011;
+    phiss = 0.011;
+end;
+
+shocks;
+var phiss;
+periods 1:20;
+values 0.02;
 end;
 
 check;
 steady;//(solve_algo=2)
+
+//shocks;
+//var e_phi; stderr 0.0005;
+//var e_s; stderr 0.0005;
+//end;
+
 simul(periods=200);
