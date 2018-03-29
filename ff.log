@@ -1,0 +1,165 @@
+Starting Dynare (version 4.5.3).
+Starting preprocessing of the model file ...
+Found 35 equation(s).
+Evaluating expressions...done
+Computing static model derivatives:
+ - order 1
+Computing dynamic model derivatives:
+ - order 1
+Processing outputs ...
+done
+Preprocessing completed.
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0                0                0
+               0                0                0
+          0.5717           0.5717                0
+          0.6779           0.6779                0
+          0.7104           0.7104                0
+             0.9              0.9                0
+          0.9769           0.9769                0
+          0.9824           0.9824                0
+           1.026            1.026                0
+           1.198            1.198                0
+           1.264            1.225           0.3141
+           1.264            1.225          -0.3141
+           1.451            1.451                0
+       8.216e+16        8.216e+16                0
+       1.819e+17        1.819e+17                0
+       1.232e+19       -1.232e+19                0
+       4.051e+19       -4.051e+19                0
+             Inf              Inf                0
+
+
+There are 10 eigenvalue(s) larger than 1 in modulus 
+for 10 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+STEADY-STATE RESULTS:
+
+fi      		 0.272045
+fe      		 0.286237
+qi      		 0.450291
+qe      		 0.427965
+thetai  		 0.60415
+thetae  		 0.668827
+vi      		 0.0469182
+ve      		 0.00780036
+g       		 0.00750082
+ho      		 0.416639
+hoe     		 0.31377
+ny      		 0.523387
+noe     		 0.303162
+noi     		 0.0947306
+usy     		 0.0664785
+usi     		 0.0776597
+usoi    		 0.0111812
+use     		 0.0116627
+Sy      		 1.4915
+Soe     		 1.64133
+Soi     		 -0.763431
+D       		 16.6838
+omega   		 0.143977
+c       		 1.08811
+i       		 0.010101
+pi      		 1
+tau     		 0.833333
+y       		 1.10318
+wy      		 0.815791
+woi     		 0.846541
+woe     		 1.31097
+R       		 1.0101
+Ygrowth 		 1
+Cgrowth 		 1
+phi     		 0.02
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+               0                0                0
+               0                0                0
+          0.6411           0.6411                0
+          0.7202           0.7202                0
+          0.7842           0.7842                0
+             0.9              0.9                0
+          0.9857           0.9857                0
+          0.9914           0.9914                0
+           1.026            1.026                0
+           1.152            1.152                0
+           1.207            1.179            0.258
+           1.207            1.179           -0.258
+            1.42             1.42                0
+       2.885e+17        2.885e+17                0
+       5.427e+17       -5.427e+17                0
+       7.956e+17        7.956e+17                0
+       2.308e+19        2.308e+19                0
+       2.052e+34       -2.052e+34                0
+
+
+There are 10 eigenvalue(s) larger than 1 in modulus 
+for 10 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+STEADY-STATE RESULTS:
+
+fi      		 0.202227
+fe      		 0.287157
+qi      		 0.605755
+qe      		 0.426595
+thetai  		 0.333843
+thetae  		 0.673137
+vi      		 0.0239927
+ve      		 0.00834119
+g       		 -0.00149477
+ho      		 0.594989
+hoe     		 0.355169
+ny      		 0.363472
+noe     		 0.343745
+noi     		 0.219563
+usy     		 0.0464729
+usi     		 0.0718682
+usoi    		 0.0253953
+use     		 0.0123915
+Sy      		 1.86487
+Soe     		 1.6466
+Soi     		 -0.958026
+D       		 16.4147
+omega   		 0.35336
+c       		 1.12379
+i       		 0.010101
+pi      		 1
+tau     		 0.833333
+y       		 1.13303
+wy      		 0.808908
+woi     		 0.849908
+woe     		 1.3109
+R       		 1.0101
+Ygrowth 		 1
+Cgrowth 		 1
+phi     		 0.011
+
+--------------------------------------------------------
+MODEL SIMULATION:
+
+Iter: 1,	 err. = 0.17433, 	 time = 0.054
+Iter: 2,	 err. = 0.18509, 	 time = 0.008
+Iter: 3,	 err. = 0.05168, 	 time = 0.01
+Iter: 4,	 err. = 0.014635, 	 time = 0.007
+Iter: 5,	 err. = 0.021001, 	 time = 0.011
+Iter: 6,	 err. = 0.0045817, 	 time = 0.007
+Iter: 7,	 err. = 0.00068075, 	 time = 0.007
+Iter: 8,	 err. = 0.00015479, 	 time = 0.007
+Iter: 9,	 err. = 5.8958e-06, 	 time = 0.007
+
+Total time of simulation: 0.283
+--------------------------------------------------------
+
+Perfect foresight solution found.
+
+Total computing time : 0h00m01s
